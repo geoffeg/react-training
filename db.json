@@ -1,0 +1,70 @@
+{
+  "menu": [
+    {
+      "id": 1,
+      "name": "Chicken Tikka Masala",
+      "description": "Rich curry Chicken",
+      "price": 17
+    },
+    {
+      "id": 2,
+      "name": "BBQ Ribs",
+      "description": "Food",
+      "price": 25
+    },
+    {
+      "name": "foo",
+      "description": "bar",
+      "price": "342",
+      "id": 3
+    },
+    {
+      "name": "meow",
+      "description": "woof ",
+      "price": "19",
+      "id": 4
+    },
+    {
+      "name": "Glazed dout",
+      "description": "Tasty",
+      "price": "0.99",
+      "id": 5
+    },
+    {
+      "name": "Glazed dout",
+      "description": "Tasty",
+      "price": "0.99",
+      "id": 6
+    },
+    {
+      "name": "Glazed dout",
+      "description": "Tasty",
+      "price": "0.99",
+      "id": 7
+    },
+    {
+      "name": "Glazed dout",
+      "description": "Tasty",
+      "price": "0.99",
+      "id": 8
+    },
+    {
+      "name": "Glazed dout",
+      "description": "Tasty",
+      "price": "0.99",
+      "id": 9
+    },
+    {
+      "name": "Glazed donut",
+      "description": "Tasty",
+      "price": "0.99",
+      "id": 10
+    },
+    {
+      "name": "Glazed donut",
+      "description": "Tasty",
+      "price": "0.99",
+      "id": 11
+    }
+  ]
+}
