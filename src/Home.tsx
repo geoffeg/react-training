@@ -18,9 +18,13 @@ export function Home() {
       setMenu(await getMenu());
     })();
   }, []);
+
+  // if (menu.length === 0) return <p>Loading...</p>;
+
   return (
     <>
       <h1>Menu</h1>
+      {menu.length == 0 ? "Loading..." : <p>{menu.length} items found</p>}
       {menu.map((item) => (
         <div key={item.id} className={styles.card}>
           <h2>Name: {item.name}</h2>

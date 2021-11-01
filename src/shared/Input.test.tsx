@@ -20,7 +20,7 @@ describe("Input", () => {
   });
   it("should render an input textarea and an attached label when type=textarea", () => {
     render(
-      <Input
+      <TextArea
         type="textArea"
         label="label"
         value=""

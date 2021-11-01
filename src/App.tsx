@@ -2,6 +2,7 @@ import { Route, Link } from "react-router-dom";
 import { About } from "./About";
 import { Home } from "./Home";
 import { Admin } from "./Admin";
+import { ErrorBoundary } from "react-error-boundary";
 
 const brandColor = "blue";
 
@@ -25,8 +26,11 @@ export function App() {
         <Home />
       </Route>
       <Route path="/admin">
-        <Admin />
+        <ErrorBoundary fallback={<>Sorry!</>}>
+          <Admin />
+        </ErrorBoundary>
       </Route>
+
       <Route path="/about">
         <About />
       </Route>
