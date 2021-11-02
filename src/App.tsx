@@ -3,12 +3,15 @@ import { About } from "./About";
 import { Home } from "./Home";
 import { Admin } from "./Admin";
 import { ErrorBoundary } from "react-error-boundary";
+import { QueryClient, QueryClientProvider } from "react-query";
 
 const brandColor = "blue";
 
+const queryClient = new QueryClient();
+
 export function App() {
   return (
-    <>
+    <QueryClientProvider client={queryClient}>
       <nav>
         <ul>
           <li>
@@ -34,6 +37,6 @@ export function App() {
       <Route path="/about">
         <About />
       </Route>
-    </>
+    </QueryClientProvider>
   );
 }
